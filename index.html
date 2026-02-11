@@ -1,29 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="witdh=device-width, initial-scale=1.0">
-    <title> El despertar infinito </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El despertar infinito</title>
 </head>
 
-<header>
-  <h1><strong> El despertar infinito </strong></h1>
-  <p>Por Marco Carbajal (23025)</p>
-</header>
+<body>
+    <header>
+        <h1>El despertar infinito</h1>
+        
+        <nav id="Breadcrumb">
+            <span>Inicio</span>
+        </nav>
+    </header>
 
-<body> 
-    <h1> Inicio de la aventura</h1>
-    <p> 
-        Despiertas en una habitación blanca. No recuerdas tu nombre. Sobre la mesa hay dos objetos: una llave oxidada y una fotografía borrosa. En la pared notas marcas de tiza... como si alguien hubiera estado contando algo.
-    </p>
-    <ul> 
-        <li> <a href="./nivel2/llave.html">Tomar la llave</a></li>
-        <li> <a href="./nivel2/fotografia.html">Tomar la fotografía</a></li>
-        <li> <a href="./nivel2/marcas.html">Examinar las marcas en la pared</a></li>
+    <dialog open>
+        <h2>¿Cómo jugar?</h2>
+        <form method="dialog">
+            <p>Esta es una historia interactiva. Cada decisión que tomes te llevará 
+                por diferentes caminos, pero todos eventualmente regresan al inicio, ¿o no?
+                Busca la manera de salir del ciclo, o quédate atrapado por siempre.</p>
+            <button type="submit">Cerrar instrucciones</button>
+        </form>
+    </dialog>
 
-    </ul>
+    <main>
+        <article>
+            <header>
+                <h2>Abres los ojos...</h2>
+                <time datetime="2025-11-11">11 de noviembre, 2025</time>
+            </header>
+            
+            <section>
+                <p>
+                    Despiertas en una habitación blanca. No recuerdas tu nombre. 
+                    Sobre la mesa hay dos objetos: una llave oxidada y una fotografía borrosa. 
+                    En la pared notas marcas de tiza... como si alguien hubiera estado contando algo.
+                </p>
+
+                <figure>
+                    <img src="./images/habitacion_blanca.jpg" 
+                         alt="Una habitación blanca vacía con una mesa en el centro" 
+                         width="600" 
+                         height="400">
+                    <figcaption>La habitación donde siempre despiertas.</figcaption>
+                </figure>
+            </section>
+
+            <details>
+                <summary>Examinar la habitación más detenidamente</summary>
+                <p>
+                    La habitación es perfectamente cuadrada. Las paredes son de un blanco 
+                    impoluto, excepto por las 286 marcas de tiza. La mesa es de metal frío. 
+                    No hay ventanas visibles. Solo una puerta.
+                </p>
+            </details>
+
+            <details>
+                <summary>Revisar tus bolsillos</summary>
+                <p>
+                    Tus bolsillos están vacíos. No tienes identificación, dinero, ni nada 
+                    que te indique quién eres o cómo llegaste aquí.
+                </p>
+            </details>
+        </article>
+
+        <section>
+            <h3>¿Qué decides hacer?</h3>
+            <nav>
+                <ul>
+                    <li><a href="./nivel2/llave.html">Tomar la llave</a></li>
+                    <li><a href="./nivel2/fotografia.html">Tomar la fotografía</a></li>
+                    <li><a href="./nivel2/marcas.html">Examinar las marcas en la pared</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        <p>Marco Carbajal (23025) | Sistemas y tecnologías web - S40</p>
+    </footer>
 </body>
-
-<footer>
-  <p>Sistemas y tecnologías web - 2026</p>
-</footer>
+</html>
