@@ -1,0 +1,1 @@
+Creación de una historia interactiva de texto que se desarrolla a través de varias páginas HTML conectadas entre sí. Cada página es una escena. Las decisiones del lector se hacen con links, y según lo que se elija, la historia sigue por distintos caminos.
